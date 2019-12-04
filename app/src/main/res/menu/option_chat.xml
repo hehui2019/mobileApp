@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Invite People"
+        android:id = "@+id/main_invite_option"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="LogOut"
+        android:id = "@+id/main_logout_option"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="Back to Room"
+        android:id = "@+id/back_option"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="Open to public"
+        android:id = "@+id/make_public"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="Quit from Group"
+        android:id = "@+id/quit"
+        app:showAsAction= "never"
+        >
+    </item>
+</menu>

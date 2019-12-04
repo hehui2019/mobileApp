@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#03A9F4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/spinButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_password"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="214dp"
+                android:layout_marginRight="29dp"
+                android:background="@drawable/buttons"
+                android:padding="4dp"
+                android:text="Spin"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/groupButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinButton"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="29dp"
+                android:background="@drawable/buttons"
+                android:padding="4dp"
+                android:text="Group"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+
+                />
+            <!--android:textColor="@android:color/background_light" -->
+            <Button
+                android:id="@+id/pbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/groupButton"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="29dp"
+
+                android:background="@drawable/buttons"
+                android:padding="4dp"
+                android:text="Preference"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/CheckIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pbutton"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="29dp"
+                android:background="@drawable/buttons"
+                android:padding="4dp"
+                android:text="Check-In"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Create Public Room"
+        android:id = "@+id/main_create_public_group_option"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="Create Private Room"
+        android:id = "@+id/main_create_private_group_option"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="Remove Room"
+        android:id = "@+id/main_remove_group_option"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="LogOut"
+        android:id = "@+id/main_logout_option"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="BacktoMain"
+        android:id = "@+id/option1"
+        app:showAsAction= "never"
+        >
+    </item>
+    <item
+        android:title="Add Friend"
+        android:id = "@+id/add_friend"
+        app:showAsAction= "never"
+        >
+    </item>
+</menu>

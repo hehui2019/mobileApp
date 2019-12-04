@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">My Application123</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_spinner">Spinner</string>
+
+    <string-array name="food_types">
+        <item>Bakeries</item>
+        <item>Beer, Wine and Spirits</item>
+        <item>Breweries</item>
+        <item>Coffee and Tea</item>
+        <item>Coffee Roasteries</item>
+        <item>Desserts</item>
+        <item>Distilleries</item>
+        <item>Farmers Market</item>
+        <item>Food Delivery Services</item>
+        <item>Food Trucks</item>
+        <item>Grocery</item>
+        <item>Ice Cream and Frozen Yogurt</item>
+        <item>Imported Food</item>
+        <item>International Grocery</item>
+        <item>Internet Cafes</item>
+        <item>Juice Bars and Smoothies</item>
+        <item>Organic Stores</item>
+        <item>Poke</item>
+        <item>Street Vendors</item>
+        <item>Tea Rooms</item>
+    </string-array>
+
+    <string-array name="dietary_types">
+        <item>Low Carb</item>
+        <item>High Protein</item>
+        <item>Low/No Sodium</item>
+        <item>Gluten Free</item>
+        <item>Lactose Free</item>
+        <item>Diabetic</item>
+        <item>Vegeterian</item>
+        <item>Paleo</item>
+        <item>Vegan</item>
+        <item>Nut Free</item>
+        <item>Pescetarian</item>
+    </string-array>
+
+</resources>
